@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F19CFB3B189052E8000DFDA5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19CFB3A189052E8000DFDA5 /* MapKit.framework */; };
+		F19CFB3D189054D8000DFDA5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19CFB3C189054D8000DFDA5 /* CoreLocation.framework */; };
 		F1CE0D7518904CC500D9DFBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CE0D7418904CC500D9DFBC /* Foundation.framework */; };
 		F1CE0D7718904CC500D9DFBC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CE0D7618904CC500D9DFBC /* CoreGraphics.framework */; };
 		F1CE0D7918904CC500D9DFBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CE0D7818904CC500D9DFBC /* UIKit.framework */; };
@@ -14,7 +16,7 @@
 		F1CE0D8118904CC500D9DFBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE0D8018904CC500D9DFBC /* main.m */; };
 		F1CE0D8518904CC500D9DFBC /* JJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE0D8418904CC500D9DFBC /* JJAppDelegate.m */; };
 		F1CE0D8818904CC500D9DFBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CE0D8618904CC500D9DFBC /* Main.storyboard */; };
-		F1CE0D8B18904CC500D9DFBC /* JJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE0D8A18904CC500D9DFBC /* JJFirstViewController.m */; };
+		F1CE0D8B18904CC500D9DFBC /* JJMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE0D8A18904CC500D9DFBC /* JJMapViewController.m */; };
 		F1CE0D8E18904CC500D9DFBC /* JJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CE0D8D18904CC500D9DFBC /* JJSecondViewController.m */; };
 		F1CE0D9018904CC500D9DFBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CE0D8F18904CC500D9DFBC /* Images.xcassets */; };
 		F1CE0D9718904CC500D9DFBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CE0D9618904CC500D9DFBC /* XCTest.framework */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F19CFB3A189052E8000DFDA5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F19CFB3C189054D8000DFDA5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F1CE0D7118904CC500D9DFBC /* iBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CE0D7418904CC500D9DFBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F1CE0D7618904CC500D9DFBC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,8 +50,8 @@
 		F1CE0D8318904CC500D9DFBC /* JJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJAppDelegate.h; sourceTree = "<group>"; };
 		F1CE0D8418904CC500D9DFBC /* JJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJAppDelegate.m; sourceTree = "<group>"; };
 		F1CE0D8718904CC500D9DFBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F1CE0D8918904CC500D9DFBC /* JJFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJFirstViewController.h; sourceTree = "<group>"; };
-		F1CE0D8A18904CC500D9DFBC /* JJFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJFirstViewController.m; sourceTree = "<group>"; };
+		F1CE0D8918904CC500D9DFBC /* JJMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJMapViewController.h; sourceTree = "<group>"; };
+		F1CE0D8A18904CC500D9DFBC /* JJMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJMapViewController.m; sourceTree = "<group>"; };
 		F1CE0D8C18904CC500D9DFBC /* JJSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJSecondViewController.h; sourceTree = "<group>"; };
 		F1CE0D8D18904CC500D9DFBC /* JJSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSecondViewController.m; sourceTree = "<group>"; };
 		F1CE0D8F18904CC500D9DFBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19CFB3D189054D8000DFDA5 /* CoreLocation.framework in Frameworks */,
+				F19CFB3B189052E8000DFDA5 /* MapKit.framework in Frameworks */,
 				F1CE0D7718904CC500D9DFBC /* CoreGraphics.framework in Frameworks */,
 				F1CE0D7918904CC500D9DFBC /* UIKit.framework in Frameworks */,
 				F1CE0D7518904CC500D9DFBC /* Foundation.framework in Frameworks */,
@@ -104,6 +110,8 @@
 		F1CE0D7318904CC500D9DFBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F19CFB3C189054D8000DFDA5 /* CoreLocation.framework */,
+				F19CFB3A189052E8000DFDA5 /* MapKit.framework */,
 				F1CE0D7418904CC500D9DFBC /* Foundation.framework */,
 				F1CE0D7618904CC500D9DFBC /* CoreGraphics.framework */,
 				F1CE0D7818904CC500D9DFBC /* UIKit.framework */,
@@ -118,8 +126,8 @@
 				F1CE0D8318904CC500D9DFBC /* JJAppDelegate.h */,
 				F1CE0D8418904CC500D9DFBC /* JJAppDelegate.m */,
 				F1CE0D8618904CC500D9DFBC /* Main.storyboard */,
-				F1CE0D8918904CC500D9DFBC /* JJFirstViewController.h */,
-				F1CE0D8A18904CC500D9DFBC /* JJFirstViewController.m */,
+				F1CE0D8918904CC500D9DFBC /* JJMapViewController.h */,
+				F1CE0D8A18904CC500D9DFBC /* JJMapViewController.m */,
 				F1CE0D8C18904CC500D9DFBC /* JJSecondViewController.h */,
 				F1CE0D8D18904CC500D9DFBC /* JJSecondViewController.m */,
 				F1CE0D8F18904CC500D9DFBC /* Images.xcassets */,
@@ -255,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1CE0D8B18904CC500D9DFBC /* JJFirstViewController.m in Sources */,
+				F1CE0D8B18904CC500D9DFBC /* JJMapViewController.m in Sources */,
 				F1CE0D8518904CC500D9DFBC /* JJAppDelegate.m in Sources */,
 				F1CE0D8E18904CC500D9DFBC /* JJSecondViewController.m in Sources */,
 				F1CE0D8118904CC500D9DFBC /* main.m in Sources */,
@@ -467,6 +475,7 @@
 				F1CE0DA818904CC500D9DFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1CE0DA918904CC500D9DFBC /* Build configuration list for PBXNativeTarget "iBeaconTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +484,7 @@
 				F1CE0DAB18904CC500D9DFBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
